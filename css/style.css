@@ -1,0 +1,89 @@
+@charset "utf-8";
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/roboto_slabbold.ttf') format('truetype'),url('fonts/robotoslab-bold.svg#roboto_slabbold') format('svg');font-weight:normal;font-style:normal
+}
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+img{
+	border:0
+}
+
+address,caption,cite,code,dfn,em,th,var{
+	font-style:normal;
+	font-weight:normal
+}
+
+#header{
+		background:#002f49;
+}
+#country-address {
+	background:#002f49;
+	margin-top: 40px;
+}
+
+.row{
+	padding-bottom: 40px;
+	border-bottom: 1px solid #143f57;
+}
+
+#country-address p{
+	color: #dddddd;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#country-address h4{
+	color: white;
+	font-size: 13px;
+}
+
+#top-banner{
+	background:#002f49;
+	height:480px;
+}
+
+#footer-text{
+	padding-top: 25px;
+	text-align: center;
+	color: #999999;
+	font-size: 12px;
+}
+
+.color_h1{
+	color: #8dc63f;
+}
+
+#top-banner .container{background:url(../img/banner_bg.jpg) no-repeat top center;height:400px;color:#fff;text-align:center;padding-bottom:50px;border-bottom: 1px solid #143f57;}
+#top-banner .container h1.global-text{font-family:'RobotoSlab-Light',Arial,Helvetica,Geneva,sans-serif;letter-spacing:3px;font-size:48px;margin:160px 0 12px;text-transform:uppercase}
+
+ol,ul{
+	list-style:none
+}
+
+caption,th{
+	text-align:left
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal
+}
+
+body{
+	font-family:"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	font-size:13px;
+}
+
+.clear{clear:both}
